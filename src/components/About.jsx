@@ -1,12 +1,13 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
 
-function App() {
+function AboutMe() {
   return (  
-      <div>
-          
-      </div>
+    <Card>
+      <Card.Body>This is some text within a card body.</Card.Body>
+    </Card>
   );
 }
 
-export default App;
+export default AboutMe;

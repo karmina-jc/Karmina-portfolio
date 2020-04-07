@@ -22,11 +22,12 @@ const Styles = styled.div`
     .backHexagonB {
         background: url(${HexagonB}) no-repeat;
         background-size: 75%;
-        padding: 2% 7%
+        padding: 2% 12% 3% 0%;
+        margin-left: 7%;       
     }
     .card-text {
         color: white;
-        margin: 5% 10%;        
+        margin: 5% 7%;        
     };
     .card-footer {
         display: flex;
