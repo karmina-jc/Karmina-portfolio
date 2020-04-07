@@ -16,14 +16,14 @@ const Styles = styled.div`
     }
     .overlay {
         background: url(${HexagonFull}) no-repeat;
-        background-size: 800px;
+        background-size: 50%;
         background-position: center;
-        display: felx;
+        display: flex;
         justify-content: center;
-        padding: 20px;
+        padding: 2%;
     }
-    .overlay img {
-        height: 250px;
+    .profilImg {
+        height: 40vh;
     }
 `
 
@@ -32,7 +32,7 @@ const Profile = () => {
     <Styles>
         <Jumbotron fluid className="jumbo">
            <div className="overlay"> 
-           <img src={Avatar} alt="" />
+           <img className="profilImg" src={Avatar} alt="" />
            </div>          
             <Container>
                 <h2 className="text-center">Karmina Jara Crespo</h2>
