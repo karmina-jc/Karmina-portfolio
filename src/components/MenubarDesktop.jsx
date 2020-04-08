@@ -23,13 +23,19 @@ const MenubarDesktop = () => {
   return (    
     <Style>
       <Navbar expand = "lg">
-        <Navbar.Brand href="/"><img src={KJlogo} alt=""/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={KJlogo} alt="kjlogo"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
-                  <Nav.Item><Nav.Link href="/">Sobre me</Nav.Link></Nav.Item>
-                  <Nav.Item><Nav.Link href="/">Proyectos</Nav.Link></Nav.Item>
-                  <Nav.Item><Nav.Link href="/">Contacto</Nav.Link></Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/">Sobre mi</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/">Proyectos</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="/">Contacto</Nav.Link>
+                  </Nav.Item>
               </Nav>
           </Navbar.Collapse>
       </Navbar> 
