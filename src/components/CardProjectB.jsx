@@ -14,7 +14,6 @@ const Styles = styled.div`
     .card-body {
         display: flex;
         justify-content: space-around;
-<<<<<<< HEAD
         padding: 0;
     }
     .projetcLogo {
@@ -30,27 +29,10 @@ const Styles = styled.div`
         color: white;
         margin: 5% 7%;        
     }
-=======
-        padding: 0%;
-    };
-    .projetcLogo {
-        height: 25vh;                      
-    }; 
-    .backHexagonB {
-        background: url(${HexagonB}) no-repeat;
-        background-size: 75%;
-        padding: 2% 7%
-    }
-    .card-text {
-        color: white;
-        margin: 5% 10%;        
-    };
->>>>>>> 80e561fdf1f87b7166093a7754842bb74bbcc971
     .card-footer {
         display: flex;
         justify-content: flex-end;
         background: #600269;
-<<<<<<< HEAD
         margin-right: 5%;
     }
     .btnGithub {
@@ -76,49 +58,15 @@ const Styles = styled.div`
 `
 
 const CardProjectB = ({description, logoApp}) => {
-=======
-        margin-right: 10%;
-    };
-    .btnGithub {
-        background: #C43165;
-        margin: 0px 10px;
-        border: none;
-        border-radius: 25px;
-    };
-    .btnGithub img {
-        height: 30px;  
-        margin: 4px;            
-    };
-    .btnDeploy {
-        background: #C43165;
-        margin: 0px 10px; 
-        border: none;
-        border-radius: 25px; 
-    };
-    .btnDeploy img {
-        height: 30px;
-        margin: 4px;          
-    };
-`
-
-const CardProjectB = (props) => {
->>>>>>> 80e561fdf1f87b7166093a7754842bb74bbcc971
     return (  
         <Styles>
             <Card>
                 <Card.Body>
                     <div className="backHexagonB">
-<<<<<<< HEAD
                         <img className="projetcLogo" src={logoApp} alt="Logo App"/>
                     </div> 
                     <Card.Text>
                         {description}
-=======
-                        <img className="projetcLogo" src={props.logoApp} alt=""/>
-                    </div> 
-                    <Card.Text>
-                        {props.description}
->>>>>>> 80e561fdf1f87b7166093a7754842bb74bbcc971
                     </Card.Text>                
                 </Card.Body>
                 <Card.Footer>
