@@ -7,7 +7,7 @@ import KJlogo from '../images/logo-kj.png'
 const Style = styled.nav`
 
     .navbar {
-        background-color: #740E7E;
+        background-color: #1F1F1F;
     }
     .navbar-brand, .navbar-nav .nav-link {
         color white;

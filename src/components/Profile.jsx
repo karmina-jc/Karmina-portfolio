@@ -1,15 +1,18 @@
 import React from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
 import styled from 'styled-components';
+import Aboutme from './About'
 import HexagonFull from '../images/hexagono-full.png';
 import Avatar from '../images/avatar.png';
 
+
 const Styles = styled.div`
     .jumbotron{
-        background: #600269;
+        background: #062F4F;
+        padding: 2%;  
     }
     h2 {
-        color: #DC007C;
+        color: #9A598D;
     }
     h3 {
         color: white;
@@ -38,7 +41,7 @@ const Profile = () => {
                 <h2 className="text-center">Karmina Jara Crespo</h2>
                 <h3 className="text-center">Front-End Developer</h3>
             </Container>
-           
+            <Aboutme />           
         </Jumbotron>      
     </Styles> 
     );
