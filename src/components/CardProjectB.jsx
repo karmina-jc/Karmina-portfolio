@@ -1,44 +1,44 @@
 import React from 'react';
-import {Card, Button, Container } from 'react-bootstrap';
+import {Card, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import HexagonB from '../images/hexagono-b.png';
 import githubIcon from '../images/github-white.png';
 import deployIcon from '../images/rocket-white.png';
 
 const Styles = styled.div`
-    .container {
-        min-width: 90%;
-    }     
+    
     .card {
+        border: none;
         background: #9A598D;
         display: flex;
+        min-width: 45%;
         padding: 2% 2%;
         border-radius: 20px;
-        margin: 1%;
+        margin: 2%;    
     }
     .card-body {
         display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
+        padding-bottom: 0;
+        padding-top: 0;
+    }  
     .projetcLogo {
-        height: 25vh;                      
+        height: 20vh;                      
     } 
     .backHexagonB {
         background: url(${HexagonB}) no-repeat;
-        background-size: 75%;
+        background-size: 80%;
         padding: 2% 12% 0 0;      
     }
     .card-text {
         color: white;
-        margin-top: 5%;
-        margin-left: 2%;      
+        margin-top: 2%;
+        margin-left: 1%;
     }
     .card-footer {
-        display: flex;
-        justify-content: flex-end;
         background: #9A598D;
-        padding-bottom: 1%
+        display: flex;
+        justify-content: flex-end;        
+
     }
     .btnGithub {
         background: #882601;
@@ -65,8 +65,7 @@ const Styles = styled.div`
 const CardProjectB = ({description, logoApp}) => {
     return (  
         <Styles>
-            <Container>
-              <Card>              
+            <Card>              
                 <Card.Body>
                     <div className="backHexagonB">
                         <img className="projetcLogo" src={logoApp} alt="Logo App"/>
@@ -79,8 +78,7 @@ const CardProjectB = ({description, logoApp}) => {
                     <Button className="btnGithub" >Github <img src={githubIcon} alt="github"/></Button>
                     <Button className="btnDeploy">Deploy <img src={deployIcon} alt="deploy"/></Button>
                 </Card.Footer >
-               </Card>
-            </Container>
+            </Card>
         </Styles>  
     );
   }

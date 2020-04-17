@@ -1,49 +1,43 @@
 import React from 'react';
-import {Card, Button, Container } from 'react-bootstrap';
+import {Card, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import HexagonA from '../images/hexagono-a.png';
 import githubIcon from '../images/github-white.png'
 import deployIcon from '../images/rocket-white.png'
 
 const Styles = styled.div`
-    .container {
-        min-width: 90%;
-    }    
+  
     .card {
-        background: #813772;
-        display: flex;
-        padding: 2% 2%;
-        border-radius: 20px;
-        margin: 1%;             
+        border: none;
+        background: #813772;   
+        padding: 2%;
+        border-radius: 20px;        
+        min-width: 45%;
+        margin: 2%;
     }
     .card-body {
         display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
-    .projetcLogo {
-        height: 25vh;                      
-    }
-    .backHexagon {
-        margin-right: 0; 
-        background: url(${HexagonA}) no-repeat;
-        background-size: 75%;
-        padding: 2% 0 0 7%;
-        
-    }
+        padding-bottom: 0;
+        padding-top: 0;
+    }  
     .card-text {
         color: white;
-        margin-top: 5%;
-        margin-right: 4%;        
+        margin-top: 2%;              
+    }  
+    .projetcLogo {
+        height: 23vh;                      
     }
-    .card-footer {
-        display: flex;
+    .backHexagon {       
+        background: url(${HexagonA}) no-repeat;
+        background-size: 75%;
+        padding: 2% 0 0 7%;        
+    }
+    .card-footer {  
         background: #813772;
-        padding-bottom: 1%
     }
     .btnGithub {
         background: #882601;
-        margin: 0px 10px;
+        margin: 0 10px;
         border: none;
         border-radius: 25px;   
     }
@@ -67,7 +61,6 @@ const Styles = styled.div`
 const CardProjectA = ({description, logoApp}) => {
     return (  
        <Styles>
-           <Container>
             <Card>              
                 <Card.Body>
                     <Card.Text>
@@ -82,7 +75,6 @@ const CardProjectA = ({description, logoApp}) => {
                     <Button className="btnDeploy">Deploy <img src={deployIcon} alt="deploy"/></Button>
                 </Card.Footer>
               </Card>
-            </Container>
        </Styles>  
     );
   }

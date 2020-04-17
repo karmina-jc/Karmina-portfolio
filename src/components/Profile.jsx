@@ -9,7 +9,7 @@ import Avatar from '../images/avatar.png';
 const Styles = styled.div`
     .jumbotron{
         background: #062F4F;
-        padding: 2%;  
+        padding-bottom: 1%;
     }
     h2 {
         color: #9A598D;
