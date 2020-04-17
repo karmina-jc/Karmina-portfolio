@@ -24,7 +24,7 @@ function AboutMe() {
         </Card>
       </Container>
     </Styles> 
-  );
+  )
 }
 
 export default AboutMe;
