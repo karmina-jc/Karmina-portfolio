@@ -1,20 +1,27 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import MenubarDesktop from './components/MenubarDesktop'
 import Footer from './components/footer';
 import Profile from './components/Profile';
 import Projects from './components/Proyects';
+import styled from 'styled-components';
 
 
+const Styles = styled.div`
+    .App{
+        background-color: #600269;
+    }
+`
 
 function App() {
-  return (  
-      <Fragment className="App">
+  return ( 
+    <Styles>
+      <div className="App">
         <MenubarDesktop />               
           <Profile /> 
           <Projects />         
         <Footer/>
-      </Fragment>
-
+      </div>
+    </Styles>
   );
 }
 

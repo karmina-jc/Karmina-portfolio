@@ -10,15 +10,15 @@ const Styles = styled.div`
         background: #740E7E;
         display: flex;
         padding: 2% 4%;               
-    };
+    }
     .card-body {
         display: flex;
         justify-content: space-around;
-        padding: 0%;
-    };
+        padding: 0;
+    }
     .projetcLogo {
         height: 25vh;                      
-    };
+    }
     .backHexagon {
         background: url(${HexagonA}) no-repeat;
         background-size: 75%;
@@ -27,45 +27,45 @@ const Styles = styled.div`
     .card-text {
         color: white;
         margin: 5% 10%;        
-    };
+    }
     .card-footer {
         display: flex;
         background: #740E7E;
         margin-left 10%;    
-    };
+    }
     .btnGithub {
         background: #C43165;
         margin: 0px 10px;
         border: none;
         border-radius: 25px;   
-    };
+    }
     .btnGithub img {
         height: 30px;
         margin: 4px;            
-    };
+    }
     .btnDeploy {
         background: #C43165;
         margin: 0px 10px; 
         border: none;
         border-radius: 25px;  
-    };
+    }
     .btnDeploy img {
         height: 30px;
         margin: 4px;
-    };
+    }
 `
 
 
-const CardProjectA = (props) => {
+const CardProjectA = ({description, logoApp}) => {
     return (  
        <Styles>
             <Card>
                 <Card.Body>
                     <Card.Text>
-                        {props.description}
+                        {description}
                     </Card.Text>
                     <div className="backHexagon">                
-                        <img className="projetcLogo" src={props.logoApp} alt="My Tops"/>
+                        <img className="projetcLogo" src={logoApp} alt="My Tops"/>
                     </div>
                 </Card.Body>
                 <Card.Footer>

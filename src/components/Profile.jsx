@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container, Jumbotron } from 'react-bootstrap'
+import { Container, Jumbotron } from 'react-bootstrap';
 import styled from 'styled-components';
-import HexagonFull from '../images/hexagono-full.png'
-import Avatar from '../images/avatar.png'
+import HexagonFull from '../images/hexagono-full.png';
+import Avatar from '../images/avatar.png';
 
 const Styles = styled.div`
     .jumbotron{
