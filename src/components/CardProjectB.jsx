@@ -5,38 +5,43 @@ import HexagonB from '../images/hexagono-b.png';
 import githubIcon from '../images/github-white.png';
 import deployIcon from '../images/rocket-white.png';
 
-const Styles = styled.div`    
+const Styles = styled.div`
+    
     .card {
-        background: #600269;
+        border: none;
+        background: #9A598D;
         display: flex;
-        padding: 2% 2%;         
+        min-width: 45%;
+        padding: 2% 2%;
+        border-radius: 20px;
+        margin: 2%;    
     }
     .card-body {
         display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
+        padding-bottom: 0;
+        padding-top: 0;
+    }  
     .projetcLogo {
-        height: 25vh;                      
+        height: 20vh;                      
     } 
     .backHexagonB {
         background: url(${HexagonB}) no-repeat;
-        background-size: 75%;
-        padding: 2% 12% 3% 0%;
-        margin-left: 7%;       
+        background-size: 80%;
+        padding: 2% 12% 0 0;      
     }
     .card-text {
         color: white;
-        margin: 5% 7%;        
+        margin-top: 2%;
+        margin-left: 1%;
     }
     .card-footer {
+        background: #9A598D;
         display: flex;
-        justify-content: flex-end;
-        background: #600269;
-        margin-right: 5%;
+        justify-content: flex-end;        
+
     }
     .btnGithub {
-        background: #C43165;
+        background: #882601;
         margin: 0 10px;
         border: none;
         border-radius: 25px;
@@ -46,7 +51,7 @@ const Styles = styled.div`
         margin: 4px;            
     }
     .btnDeploy {
-        background: #C43165;
+        background: #882601;
         margin: 0 10px; 
         border: none;
         border-radius: 25px; 
@@ -60,7 +65,7 @@ const Styles = styled.div`
 const CardProjectB = ({description, logoApp}) => {
     return (  
         <Styles>
-            <Card>
+            <Card>              
                 <Card.Body>
                     <div className="backHexagonB">
                         <img className="projetcLogo" src={logoApp} alt="Logo App"/>

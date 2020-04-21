@@ -5,37 +5,39 @@ import HexagonA from '../images/hexagono-a.png';
 import githubIcon from '../images/github-white.png'
 import deployIcon from '../images/rocket-white.png'
 
-const Styles = styled.div`    
+const Styles = styled.div`
+  
     .card {
-        background: #740E7E;
-        display: flex;
-        padding: 2% 4%;               
+        border: none;
+        background: #813772;   
+        padding: 2%;
+        border-radius: 20px;        
+        min-width: 45%;
+        margin: 2%;
     }
     .card-body {
         display: flex;
-        justify-content: space-around;
-        padding: 0;
-    }
-    .projetcLogo {
-        height: 25vh;                      
-    }
-    .backHexagon {
-        background: url(${HexagonA}) no-repeat;
-        background-size: 75%;
-        padding: 2% 7%
-    }
+        padding-bottom: 0;
+        padding-top: 0;
+    }  
     .card-text {
         color: white;
-        margin: 5% 10%;        
+        margin-top: 2%;              
+    }  
+    .projetcLogo {
+        height: 23vh;                      
     }
-    .card-footer {
-        display: flex;
-        background: #740E7E;
-        margin-left 10%;    
+    .backHexagon {       
+        background: url(${HexagonA}) no-repeat;
+        background-size: 75%;
+        padding: 2% 0 0 7%;        
+    }
+    .card-footer {  
+        background: #813772;
     }
     .btnGithub {
-        background: #C43165;
-        margin: 0px 10px;
+        background: #882601;
+        margin: 0 10px;
         border: none;
         border-radius: 25px;   
     }
@@ -44,7 +46,7 @@ const Styles = styled.div`
         margin: 4px;            
     }
     .btnDeploy {
-        background: #C43165;
+        background: #882601;
         margin: 0px 10px; 
         border: none;
         border-radius: 25px;  
@@ -59,7 +61,7 @@ const Styles = styled.div`
 const CardProjectA = ({description, logoApp}) => {
     return (  
        <Styles>
-            <Card>
+            <Card>              
                 <Card.Body>
                     <Card.Text>
                         {description}
@@ -72,7 +74,7 @@ const CardProjectA = ({description, logoApp}) => {
                     <Button className="btnGithub">Github <img src={githubIcon} alt="github"/></Button>
                     <Button className="btnDeploy">Deploy <img src={deployIcon} alt="deploy"/></Button>
                 </Card.Footer>
-            </Card>
+              </Card>
        </Styles>  
     );
   }
