@@ -8,22 +8,22 @@ import Avatar from '../images/avatar.png';
 
 const Styles = styled.div`
     .jumbotron{
-        background: #062F4F;
+        background: #F4EADE;
         padding-bottom: 1%;
     }
     h2 {
-        color: #9A598D;
+        color: #632E98;
     }
     h3 {
-        color: white;
+        color: #ED8C72;
     }
     .overlay {
         background: url(${HexagonFull}) no-repeat;
-        background-size: 50%;
+        background-size: 70%;
         background-position: center;
         display: flex;
         justify-content: center;
-        padding: 2%;
+        padding: 3%;
     }
     .profilImg {
         height: 40vh;

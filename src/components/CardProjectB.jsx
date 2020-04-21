@@ -1,7 +1,6 @@
 import React from 'react';
 import {Card, Button } from 'react-bootstrap';
 import styled from 'styled-components';
-import HexagonB from '../images/hexagono-b.png';
 import githubIcon from '../images/github-white.png';
 import deployIcon from '../images/rocket-white.png';
 
@@ -9,7 +8,7 @@ const Styles = styled.div`
     
     .card {
         border: none;
-        background: #9A598D;
+        background: #E79078;
         display: flex;
         min-width: 45%;
         padding: 2% 2%;
@@ -18,30 +17,22 @@ const Styles = styled.div`
     }
     .card-body {
         display: flex;
-        padding-bottom: 0;
-        padding-top: 0;
     }  
     .projetcLogo {
-        height: 20vh;                      
+        height: 20vh; 
     } 
-    .backHexagonB {
-        background: url(${HexagonB}) no-repeat;
-        background-size: 80%;
-        padding: 2% 12% 0 0;      
-    }
     .card-text {
         color: white;
-        margin-top: 2%;
-        margin-left: 1%;
+        margin-left: 6%;
     }
     .card-footer {
-        background: #9A598D;
+        background: #E79078;
         display: flex;
-        justify-content: flex-end;        
-
+        justify-content: flex-end;
+        border: none;
     }
     .btnGithub {
-        background: #882601;
+        background: #632E98;
         margin: 0 10px;
         border: none;
         border-radius: 25px;
@@ -51,7 +42,7 @@ const Styles = styled.div`
         margin: 4px;            
     }
     .btnDeploy {
-        background: #882601;
+        background: #632E98;
         margin: 0 10px; 
         border: none;
         border-radius: 25px; 

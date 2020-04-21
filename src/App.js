@@ -9,7 +9,7 @@ import Tools from './components/Tools';
 
 const Styles = styled.div`
     .App{
-      background-color: #154163;
+      background-color: #F4EADE;
       display: flex:
     }
 `

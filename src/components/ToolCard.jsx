@@ -4,13 +4,18 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
    .card {
-      background-color: #154163;
+      background-color: #F4EADE;
       color: white;
       border: none;
     }
     .card-img {
       margin-bottom: 10%;
-    }   
+    }
+    .card-text {
+      color: #632E98;
+      border: solid 1px #632E98;
+      border-radius: 15px;
+    }
 `
 
 const ToolCard = ({logoIcon, toolName}) => {

@@ -10,63 +10,70 @@ import NodeJSIcon from '../images/logo-node.png';
 import ReactIcon from '../images/logo-react.png';
 import FireIcon from '../images/logo-fire.png'
 import ToolCard from './ToolCard';
+import HexagonFull from '../images/hexagono-full.png';
 
 const Styles = styled.div`
-    .containerTop {
-      margin-top: 5%;
-      display: flex;
-      justify-content: space-around; 
-      margin-bottom: 2%;
-      margin-left: 10%; 
-    }
 
-    .containerBottom {
-      margin-top: 5%;
-      display: flex;
-      justify-content: space-around;
-      margin-top: 0;     
-      margin-right: 10%; 
-    }
+  h2 {
+    background: url(${HexagonFull}) no-repeat;
+    background-size: 25%;
+    background-position: center;
+    color: #632E98;
+    padding: 2%;
+    margin: 1%;
+  }
+  .containerTop { 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;  
+  }
+  .containerBottom {
+    display: flex;
+    justify-content: space-around;    
+  }
 `
 
 function Tools() {
     return ( 
       <Styles>
-        <Container className="containerTop">
-          <ToolCard 
-          logoIcon= {JavaScriptIcon}
-          toolName= 'JavaScript'
-          />
-          <ToolCard 
-          logoIcon= {HTMLIcon}
-          toolName= 'HTML 5'
-          />
-          <ToolCard 
-          logoIcon= {CSSIcon}
-          toolName= 'CSS 3'
-          />
-          <ToolCard 
-          logoIcon= {FigmaIcon}
-          toolName= 'Figma'
-          />
+        <h2 className="text-center">Herramientas</h2>
+        <Container>
+          <Container className="containerTop">
+            <ToolCard 
+            logoIcon= {JavaScriptIcon}
+            toolName= 'JavaScript'
+            />
+            <ToolCard 
+            logoIcon= {HTMLIcon}
+            toolName= 'HTML 5'
+            />
+            <ToolCard 
+            logoIcon= {CSSIcon}
+            toolName= 'CSS 3'
+            />
+            <ToolCard 
+            logoIcon= {FigmaIcon}
+            toolName= 'Figma'
+            />
+            </Container>
+            <Container className="containerBottom">
+            <ToolCard 
+            logoIcon= {BootstrapIcon}
+            toolName= 'Bootstrap'
+            />
+            <ToolCard 
+            logoIcon= {ReactIcon}
+            toolName= 'Reactjs'
+            />
+            <ToolCard 
+            logoIcon= {NodeJSIcon}
+            toolName= 'Nodejs'
+            />
+            <ToolCard 
+            logoIcon= {FireIcon}
+            toolName= 'Firebase'
+            />
           </Container>
-          <Container className="containerBottom">
-          <ToolCard 
-          logoIcon= {BootstrapIcon}
-          toolName= 'Bootstrap'
-          />
-          <ToolCard 
-          logoIcon= {ReactIcon}
-          toolName= 'Reactjs'
-          />
-          <ToolCard 
-          logoIcon= {NodeJSIcon}
-          toolName= 'Nodejs'
-          />
-           <ToolCard 
-          logoIcon= {FireIcon}
-          toolName= 'Firebase'
-          />
         </Container>
       </Styles> 
     );

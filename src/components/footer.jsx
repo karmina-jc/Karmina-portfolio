@@ -9,12 +9,13 @@ import cvIcon from '../images/portfolio-white.png';
 
 const Styles = styled.div`
   .card {
-    background: #154163;
+    background: #F4EADE;
     display: flex;
     padding-top: 20%;
+    border: none;
   };
   .card-body {
-    background: #1F1F1F;
+    background: #632E98;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +26,7 @@ const Styles = styled.div`
     margin-top: -6%;
   }
   .card-text {
-    color: #2A5B80;
+    color: #F4EADE;
     padding-bottom: 0%;
   };
   .logoIcon {

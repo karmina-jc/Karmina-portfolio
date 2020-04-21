@@ -5,11 +5,12 @@ import styled from 'styled-components';
 const Styles = styled.div`
    
     .card {
-      background-color: #062F4F;
-      color: white;
+      background-color: #F4EADE;
+      color: #632E98;
       display: flex;
       justify-self: center;
       margin: 3%;
+      border: none;
     }   
   `
 
