@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const Styles = styled.div`
    
     .card {
-      background-color: #F4EADE;
-      color: #632E98;
+      background-color: #F9F3ED;
+      color: #6D33A7;
       display: flex;
       justify-self: center;
       margin: 3%;
