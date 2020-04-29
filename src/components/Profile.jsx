@@ -29,7 +29,7 @@ const Styles = styled.div`
   .profilImg {
     height: 40vh;
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 992px) {
     .profilImg {
       height: 30vh;
     }
@@ -37,7 +37,7 @@ const Styles = styled.div`
       background-size: 90%;
     }
   }
-  @media (max-width: 500px) {
+  @media (max-width: 576px) {
     .profilImg {
       height: 20vh;
     }

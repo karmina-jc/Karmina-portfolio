@@ -1,6 +1,6 @@
 import React from "react";
 import MenubarDesktop from "./components/MenubarDesktop";
-import Footer from "./components/Footer";
+import Footer from "./components/FooterPortafolio";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import styled from "styled-components";

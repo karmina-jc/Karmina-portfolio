@@ -37,7 +37,7 @@ const Styles = styled.div`
     }    
   }
  
-  @media (max-width: 1024px) {
+  @media (max-width: 992px) {
     .container {
       display: block;     
     }

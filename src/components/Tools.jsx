@@ -43,7 +43,7 @@ const Styles = styled.div`
     &::after {
       right: -55%;      
     } 
-    @media (max-width: 480px) {
+    @media (max-width: 576px) {
       &::after, &::before {
         width: 30%;
       }
