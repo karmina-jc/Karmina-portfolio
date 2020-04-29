@@ -3,25 +3,42 @@ import { Card } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-   .card {
-      background-color: #F4EADE;
-      color: white;
-      border: none;
+  .card {
+    width: 15vw;
+    margin: 5% 10%;
+    padding: 5% 15%;
+    background-color: #F9F3ED;
+    color: white;
+    border: none;
+  
+  }
+  .card-img {
+    margin-bottom: 10%;
+  }
+  .card-text {
+    color: #6D33A7;
+    border: solid 1px #6D33A7;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 1024px) {
+    .card {
+      width: 20vw;
     }
-    .card-img {
-      margin-bottom: 10%;
+  }
+  @media (max-width: 500px) {
+    .card {
+      width: 40vw;
     }
-    .card-text {
-      color: #632E98;
-      border: solid 1px #632E98;
-      border-radius: 15px;
-    }
+  }
+  }
+
 `
 
 const ToolCard = ({logoIcon, toolName}) => {
     return ( 
       <Styles>
-        <Card style={{ width: '8rem'}}>
+        <Card>
             <Card.Img src={logoIcon} />
             <Card.Text className="text-center">{toolName}</Card.Text>            
         </Card>     

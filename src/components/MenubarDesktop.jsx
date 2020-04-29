@@ -4,24 +4,36 @@ import styled from "styled-components";
 import KJlogo from "../images/logo-kj.png";
 
 const Style = styled.nav`
+  .navbar {
+    background-color: #6D33A7;
+    height: 8vh;
+    padding: 1%;
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color white;
 
+    &:hover {
+      background-color: #83C8B5;
+      color: white;
+    }
+  }
+  .navbar-collapse {
+    background-color: #6D33A7;
+  }
+  @media (max-width: 1024px) {
     .navbar {
-        background-color: #632E98;
+      height: 10vh;
     }
-    .navbar-brand, .navbar-nav .nav-link {
-        color white;
-
-        &:hover {
-            background-color: #ED8C72;
-            color: white;
-        }
-    }
+    .nav-link {
+      padding-left:1%;
+    }  
+  }  
 `;
 
 const MenubarDesktop = () => {
   return (
     <Style>
-      <Navbar expand="lg">
+      <Navbar expand="lg" fixed="top">
         <Navbar.Brand href="/">
           <img src={KJlogo} alt="kjlogo" />
         </Navbar.Brand>
@@ -29,13 +41,16 @@ const MenubarDesktop = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Item>
-              <Nav.Link href="/">Sobre mi</Nav.Link>
+              <Nav.Link href="#about">Sobre mi</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/">Proyectos</Nav.Link>
+              <Nav.Link href="#projects">Proyectos</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/">Contacto</Nav.Link>
+              <Nav.Link href="#tools">Herramientas</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="#contact">Contacto</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
