@@ -11,7 +11,8 @@ const Styles = styled.div`
         background: #83C8B5;   
         margin: 2%;
         padding: 2%;
-        border-radius: 20px;      
+        border-radius: 20px;
+        min-width: 50%;
     }
     .card-body {
         display: flex;
