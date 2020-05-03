@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/karmina-jc/static/css/main.c6dd1892.chunk.css",
+    "main.js": "/karmina-jc/static/js/main.8e735264.chunk.js",
+    "main.js.map": "/karmina-jc/static/js/main.8e735264.chunk.js.map",
+    "runtime-main.js": "/karmina-jc/static/js/runtime-main.2ecbed49.js",
+    "runtime-main.js.map": "/karmina-jc/static/js/runtime-main.2ecbed49.js.map",
+    "static/js/2.2d9fa420.chunk.js": "/karmina-jc/static/js/2.2d9fa420.chunk.js",
+    "static/js/2.2d9fa420.chunk.js.map": "/karmina-jc/static/js/2.2d9fa420.chunk.js.map",
+    "index.html": "/karmina-jc/index.html",
+    "precache-manifest.f44f74ed9abeb80a1470885541512a3b.js": "/karmina-jc/precache-manifest.f44f74ed9abeb80a1470885541512a3b.js",
+    "service-worker.js": "/karmina-jc/service-worker.js",
+    "static/css/main.c6dd1892.chunk.css.map": "/karmina-jc/static/css/main.c6dd1892.chunk.css.map",
+    "static/js/2.2d9fa420.chunk.js.LICENSE.txt": "/karmina-jc/static/js/2.2d9fa420.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/karmina-jc/static/media/avatar.d746967f.png",
+    "static/media/github-green.png": "/karmina-jc/static/media/github-green.40db027d.png",
+    "static/media/github-white.png": "/karmina-jc/static/media/github-white.b885ee7f.png",
+    "static/media/hexagono-footer-green.png": "/karmina-jc/static/media/hexagono-footer-green.04b87d2e.png",
+    "static/media/hexagono-footer.png": "/karmina-jc/static/media/hexagono-footer.2ecdcef4.png",
+    "static/media/hexagono-full-purple.png": "/karmina-jc/static/media/hexagono-full-purple.994bf1fe.png",
+    "static/media/linkedin-green.png": "/karmina-jc/static/media/linkedin-green.a274756e.png",
+    "static/media/logo-MDlinks.png": "/karmina-jc/static/media/logo-MDlinks.53baeaa7.png",
+    "static/media/logo-boceto.png": "/karmina-jc/static/media/logo-boceto.a6099cf7.png",
+    "static/media/logo-bootstrap.png": "/karmina-jc/static/media/logo-bootstrap.80a8e0d3.png",
+    "static/media/logo-cool-girls.png": "/karmina-jc/static/media/logo-cool-girls.a60fcc89.png",
+    "static/media/logo-css.png": "/karmina-jc/static/media/logo-css.ea8e6bcd.png",
+    "static/media/logo-figma.png": "/karmina-jc/static/media/logo-figma.471ad3e7.png",
+    "static/media/logo-fire.png": "/karmina-jc/static/media/logo-fire.9ca48e63.png",
+    "static/media/logo-html.png": "/karmina-jc/static/media/logo-html.e2033cc6.png",
+    "static/media/logo-javascript.png": "/karmina-jc/static/media/logo-javascript.8187196e.png",
+    "static/media/logo-mytops.png": "/karmina-jc/static/media/logo-mytops.0a04bddc.png",
+    "static/media/logo-node.png": "/karmina-jc/static/media/logo-node.820ff220.png",
+    "static/media/logo-react.png": "/karmina-jc/static/media/logo-react.bfe9e997.png",
+    "static/media/portfolio-green.png": "/karmina-jc/static/media/portfolio-green.736e5b8b.png",
+    "static/media/rocket-white.png": "/karmina-jc/static/media/rocket-white.440ca47a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ecbed49.js",
+    "static/js/2.2d9fa420.chunk.js",
+    "static/css/main.c6dd1892.chunk.css",
+    "static/js/main.8e735264.chunk.js"
+  ]
+}
