@@ -53,7 +53,7 @@ const Styles = styled.div`
     .btnDeploy img {
         height: 5vh;                   
     }
-    @media (max-width: 1000px) {
+    @media (max-width: 992px) {
         .card-body {
             display: flex;
             flex-direction: column;

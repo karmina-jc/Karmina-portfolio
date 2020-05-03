@@ -36,7 +36,7 @@ const Styles = styled.div`
     margin: 10px;
     opacity: 0.9;
   }
-  @media (max-width: 860px) {
+  @media (max-width: 768px) {
     .card-body {
       display: flex;
       justify-content: space-between;

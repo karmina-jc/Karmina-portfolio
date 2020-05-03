@@ -21,18 +21,17 @@ const Styles = styled.div`
     border-radius: 15px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 992px) {
     .card {
       width: 20vw;
     }
   }
-  @media (max-width: 500px) {
+  @media (max-width: 576px) {
     .card {
       width: 40vw;
     }
   }
-  }
-
+}
 `
 
 const ToolCard = ({logoIcon, toolName}) => {
