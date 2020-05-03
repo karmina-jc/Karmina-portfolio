@@ -12,12 +12,11 @@ const Styles = styled.div`
         margin: 2%;
         padding: 2%;
         border-radius: 20px;
-        min-width: 50%;
     }
     .card-body {
         display: flex;
         align-items: center;
-    }  
+    } 
     .card-text {
         color: white;
         margin-right: 5%;
@@ -43,7 +42,7 @@ const Styles = styled.div`
         border-radius: 25px;   
     }    
     .btnGithub img {
-        height: 5vh;             
+        height: 5vh;          
     }
     .btnDeploy {
         background: #6D33A7;

@@ -64,8 +64,7 @@ const Styles = styled.div`
         .card-footer {
             display: flex;
             justify-content: space-around;
-        }
-    
+        }    
     }
 `
 

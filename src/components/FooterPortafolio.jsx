@@ -73,7 +73,10 @@ function Footer() {
                   <a href="https://www.linkedin.com/in/karmina-jara-crespo/">
                     <img className="logoIcon" src={linkedinIcon} alt="LinkedIn"/>
                   </a>
-                  <img className="logoIcon" src={cvIcon} alt="CV"/>
+                  <a href="../CV-karmina-jara-crespo.pdf" download>
+                    <img className="logoIcon" src={cvIcon} alt="CV"/>
+                  </a>
+                  
               </div>
           </Card.Body>        
         </Card>
