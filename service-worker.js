@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/karmina-jc/precache-manifest.f44f74ed9abeb80a1470885541512a3b.js"
+  "/karmina-jc/precache-manifest.00938a020b855e5b385595e230d5be90.js"
 );
 
 self.addEventListener('message', (event) => {
