@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/karmina-jc/static/css/main.c6dd1892.chunk.css",
-    "main.js": "/karmina-jc/static/js/main.684bb5b3.chunk.js",
-    "main.js.map": "/karmina-jc/static/js/main.684bb5b3.chunk.js.map",
+    "main.js": "/karmina-jc/static/js/main.84f62cc6.chunk.js",
+    "main.js.map": "/karmina-jc/static/js/main.84f62cc6.chunk.js.map",
     "runtime-main.js": "/karmina-jc/static/js/runtime-main.2ecbed49.js",
     "runtime-main.js.map": "/karmina-jc/static/js/runtime-main.2ecbed49.js.map",
     "static/js/2.2d9fa420.chunk.js": "/karmina-jc/static/js/2.2d9fa420.chunk.js",
     "static/js/2.2d9fa420.chunk.js.map": "/karmina-jc/static/js/2.2d9fa420.chunk.js.map",
     "index.html": "/karmina-jc/index.html",
-    "precache-manifest.ac7d9911c6ea590ece3286c1086ab998.js": "/karmina-jc/precache-manifest.ac7d9911c6ea590ece3286c1086ab998.js",
+    "precache-manifest.133d31422e8ec9f771143f164fcda22d.js": "/karmina-jc/precache-manifest.133d31422e8ec9f771143f164fcda22d.js",
     "service-worker.js": "/karmina-jc/service-worker.js",
     "static/css/main.c6dd1892.chunk.css.map": "/karmina-jc/static/css/main.c6dd1892.chunk.css.map",
     "static/js/2.2d9fa420.chunk.js.LICENSE.txt": "/karmina-jc/static/js/2.2d9fa420.chunk.js.LICENSE.txt",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.2ecbed49.js",
     "static/js/2.2d9fa420.chunk.js",
     "static/css/main.c6dd1892.chunk.css",
-    "static/js/main.684bb5b3.chunk.js"
+    "static/js/main.84f62cc6.chunk.js"
   ]
 }
