@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37a3a510325e1c65da1029636c489cdf",
+    "revision": "03cf8a0b78f72dcf3e7c2737ec831134",
     "url": "/karmina-jc/index.html"
   },
   {
-    "revision": "9bc97a321c08c1c75719",
+    "revision": "6904f596e4aac67abcd0",
     "url": "/karmina-jc/static/css/main.c6dd1892.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/karmina-jc/static/js/2.2d9fa420.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9bc97a321c08c1c75719",
-    "url": "/karmina-jc/static/js/main.0bb082bd.chunk.js"
+    "revision": "6904f596e4aac67abcd0",
+    "url": "/karmina-jc/static/js/main.684bb5b3.chunk.js"
   },
   {
     "revision": "f5d0a5842f795e42c7b2",
