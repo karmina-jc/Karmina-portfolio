@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
-import KJlogo from "../images/logo-kj.png";
+import KJlogo from "../images/logo-kj-blanco.png";
 
 const Style = styled.nav`
   .navbar {
